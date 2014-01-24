@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../js/jquery-1.10.2.js"></script>
+<script  src="../js/jquery.validate.min.js"></script>
+<script>
+$.validator.addMethod("customphone",function(value, element) {
+	return this.optional(element) || /^\d{3}-\d{3}-\d{4}$/.test(value);
+	
+	}, "Please enter a valid phone number");
+
+$(document).ready(function() {
+
+
+		$("#myform").validate({
+				rules : {
+				field1 : "customphone"
+			}
+		});		
+			
+	});
+	
+		
+</script>
+</head>
+<body>
+	<form id="myform" novalidate="novalidate">
+		<input type="text" name="field1" id="field1" class="required"  required="required"/> 
+		<input type="submit" />
+	</form>
+</body>
+</html>

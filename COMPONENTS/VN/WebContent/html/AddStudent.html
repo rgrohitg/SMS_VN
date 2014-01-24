@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Admin Home Page</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style2.css" type="text/css" media="all">
+
+<!-- script type="text/javascript" src="js/jquery-1.4.2.min.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script -->
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="../css/ie6.css" type="text/css" media="screen">
+<script type="text/javascript" src="../js/ie_png.js"></script>
+<script type="text/javascript">ie_png.fix('.png, footer, header nav ul li a, .nav-bg, .list li img');</script>
+<![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/html5.js"></script><![endif]-->
+</head>
+<body id="page1">
+<!-- START PAGE SOURCE -->
+<div class="wrap">
+  <header>
+    <div class="container">
+      <h1><a href="#">Announcements</a></h1>
+      <!--nav>
+        < ul>
+          <li class="current"><a href="index.html" class="m1">Home Page</a></li>
+          <li><a href="about-us.html" class="m2">About Us</a></li>
+          <li><a href="articles.html" class="m3">Our Articles</a></li>
+          <li><a href="contact-us.html" class="m4">Contact Us</a></li>
+          <li class="last"><a href="sitemap.html" class="m5">Sitemap</a></li>
+        </ul>
+      </nav -->
+      <!-- form action="#" id="search-form">
+        <fieldset>
+          <div class="rowElem">
+            <input type="text">
+            <a href="#">Search</a></div>
+        </fieldset>
+      </form -->
+    </div>
+  </header>
+  <div class="container">
+    <aside>
+      <h3>Announcements</h3>
+      <ul class="categories">
+      	<marquee  direction="up">
+      	Hello latest news here
+      	Please updated the latest news here
+      	</marquee>
+        <!--  li><span><a href="#">Programs</a></span></li>
+        <li><span><a href="#">Student Info</a></span></li>
+        <li><span><a href="#">Teachers</a></span></li>
+        <li><span><a href="#">Descriptions</a></span></li>
+        <li><span><a href="#">Administrators</a></span></li>
+        <li><span><a href="#">Basic Information</a></span></li>
+        <li><span><a href="#">Vacancies</a></span></li -->
+        <li class="last"><span><a href="#">Calendar</a></span></li>
+      </ul>
+      <!-- form action="#" id="newsletter-form">
+        <fieldset>
+          <div class="rowElem">
+            <h2>Newsletter</h2>
+            <input type="email" value="Enter Your Email Here" onFocus="if(this.value=='Enter Your Email Here'){this.value=''}" onBlur="if(this.value==''){this.value='Enter Your Email Here'}" >
+            <div class="clear"><a href="#" class="fleft">Unsubscribe</a><a href="#" class="fright">Submit</a></div>
+          </div>
+        </fieldset>
+      </form -->
+      <h2>Fresh <span>News</span></h2>
+      <ul class="news">
+        <li><strong>January 30, 2013</strong>
+          <h4><a href="#">2nd test details</a></h4>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque. </li>
+        <li><strong>March 25, 2013</strong>
+          <h4><a href="#">Final end sem exam time table blah blah</a></h4>
+          blah blah blah blah blah blah blah blah blah blah blah blah </li>
+        <li><strong>June 01, 2013</strong>
+          <h4><a href="#">School Reopen</a></h4>
+           blah blah blah blah blah blah blah blah blah blah </li>
+      </ul>
+    </aside>
+    <section id="content">
+      <!-- div id="banner">
+        <h2>Welcome <span>Online Education <span>Since 1992</span></span></h2>
+      </div -->
+      <div class="inside">
+        <h2>Student <span>Regstration</span></h2>        
+        <ul class="list">
+        <form id="reg1"  name="reg" method="post"  action="<%=getServletContext().getContextPath()%>/StudentController">
+		<input type="hidden" name="<%=StudentConstants.ACTION%>" value="<%=StudentConstants.ADDSTUDENT%>"></input>
+ 			<p> 
+               <label for="username" class="uname" data-icon="u" > Student Name </label>
+               <br/>
+               <span>
+                 <input id="username"  class="innershadow" name="username" required="required" type="text" placeholder=""/>
+               </span>
+           </p>
+           <p> 
+               <label for="Gender" class="Gender" data-icon="u" > Gender </label>
+               <br/>
+               <span>
+                <input type="radio" class= "text" name="<%=StudentConstants.FGENDER%>" id="fgender" value="M">Male&nbsp;&nbsp;&nbsp;&nbsp;<input
+				type="radio" class="text" name="<%=StudentConstants.FGENDER%>" id="fgender" value="F">Female
+               </span>
+           </p>
+<table>
+	<tr>
+		<th width="25%"></th>
+		<th width="30%"></th>
+		<th width="45%"></th>
+		</tr>
+		<tr>
+			<td>Member Name*:</td>
+			<td><input type="text" class= "text" size="25" maxlength="20" id="fname" name="<%=StudentConstants.FNAME%>"></td>
+			<td id="r1"></td>
+		</tr>
+		<tr>
+			<td>Age*:</td>
+			<td><input type="text" class= "text" size="25" maxlength="2" id="fage" name="<%=StudentConstants.FAGE %>"></td>
+			<td id="r2"></td>
+		</tr>
+		<tr>
+			<td>Gender*:</td>
+			<td><input type="radio" class= "text" name="<%=StudentConstants.FGENDER%>" id="fgender" value="M">Male&nbsp;&nbsp;&nbsp;&nbsp;<input
+				type="radio" class="text" name="<%=StudentConstants.FGENDER%>" id="fgender" value="F">Female</td>
+			<td id="r3"></td>
+		</tr>
+		
+		<tr>
+			<td>Address*:</td>
+			<td><textarea rows="4"  class= "text" cols="20" id="txtarea" name="<%=StudentConstants.FTXTAREA%>"></textarea></td>
+			<td id="r4"></td>
+		</tr>
+		<tr>
+			<td>Location*:</td>
+			<td><input type="text" class= "text" size="25" maxlength="15" name="<%=StudentConstants.FLOCATION%>"></input></td>
+			<td id="r5"></td>
+		</tr>
+		<tr>
+			<td>Contact No.*:</td>
+			<td><input type="text" class= "text" size="25" maxlength="10" id="connum" name="<%=StudentConstants.FCONNUM%>"></td>
+			<td id="r6"></td>
+		</tr>
+
+<tr>
+			<td>Committed Amount*:</td>
+			<td><select id="famt" name="<%=StudentConstants.FAMT%>" class="text">
+				<option>Select</option>
+				<option>1000</option>
+				<option>2000</option>
+				<option>3000</option>
+				<option>4000</option>
+				<option>5000</option>
+				</select></td>
+			<td id="r7"></td>
+		</tr>
+		<tr>
+		<td>Bank*:</td>
+			<td><select name="<%=StudentConstants.BANKID%>" id="bank_id" class="text"><option>Select</option>
+			<% ArrayList<Bank> bank=new ArrayList<Bank>(); 
+				bank=(ArrayList)session.getAttribute("getbanks");
+				Iterator<Bank> itr=bank.iterator();
+				while(itr.hasNext()){
+					Bank bnk=new Bank();
+					bnk=(Bank)itr.next();
+					
+				%>
+				<option value="<%=bnk.getBank_id()%>"><%=bnk.getBank_name()%>,&nbsp;&nbsp;&nbsp;<%=bnk.getBranch() %></option>
+				<%}%>
+				</select>
+				
+				</td>
+				
+			<td id="r8"></td>
+		</tr>
+		<tr>
+		<td>College*:</td>
+		<td><select name="<%=StudentConstants.CID%>" id="cID" class="text"><option>Select</option>
+		<% ArrayList<College> college=new ArrayList<College>(); 
+				college=(ArrayList)session.getAttribute("getcolleges");
+				Iterator<College> itr1=college.iterator();
+				while(itr1.hasNext()){
+					College c=new College();
+					c=(College)itr1.next();
+					
+				%>
+
+				<option value="<%= c.getID() %>"><%= c.getName() %> </option>
+
+				<%  } %>
+		
+		</select></td>
+		<td id="r9"></td></tr>
+		<tr>
+			<td>Current Year of Graduation*:</td>
+			<td><select id="fyear" name="<%=StudentConstants.FYEAR%>" class="text">
+				<option>Select</option>
+				<option>1st year</option>
+				<option>2nd year</option>
+				<option>3rd year</option></select></td>
+			<td id="r10"></td>
+		</tr>
+
+		<tr>
+			<td colspan="2" ><input type="submit" value="Submit" onclick="return validate()" class="submit2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+				type="reset" value="Reset" class="submit2"></td>
+		</tr>
+</table>
+</form>
+      </div>
+    </section>
+  </div>
+</div>
+<footer>
+  <div class="footerlink">
+    <p class="lf">Copyright &copy; 2013 <a href="#">RSR Group</a> - All Rights Reserved</p>
+    <p class="rf"><a href="http://www.free-css.com/">Free CSS Templates</a> by <a href="http://www.templatemonster.com/">TemplateMonster</a></p>
+    <div style="clear:both;"></div>
+  </div>
+</footer>
+<script type="text/javascript"> Cufon.now(); </script>
+<!-- END PAGE SOURCE -->
+</body>
+</html>

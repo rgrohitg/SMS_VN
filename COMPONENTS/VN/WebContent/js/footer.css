@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+footer {
+	background: url(../images/footer.jpg) no-repeat center bottom;
+	margin-top: -120px;
+	min-width: 940px;
+}
+
+footer .footerlink {
+	margin: 0 auto;
+	width: 940px;
+	height: 60px;
+	padding-top: 60px;
+	color: #454545;
+	font-size: .785em;
+	line-height: 1.429em;
+}
+
+.footerlink p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	white-space: nowrap;
+	text-indent: inherit;
+	color: #454545;
+}
+
+.footerlink a {
+	color: #454545;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.footerlink a:hover {
+	color: #454545;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+.footerlink .lf {
+	float: left;
+}
+
+.footerlink .rf {
+	float: right;
+}
+

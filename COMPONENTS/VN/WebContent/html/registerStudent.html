@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Register Student</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/reset.css" type="text/css"
+	media="all">
+<link rel="stylesheet" href="../css/style2.css" type="text/css"
+	media="all">
+<link rel="stylesheet" href="../css/applyOnline.css" type="text/css">
+
+
+<link rel="stylesheet"
+	href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../js/jqueryValidation.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+
+</head>
+<body id="page1">
+	<!-- START PAGE SOURCE -->
+	<div class="wrap">
+		<header>
+		<div id="menunav" >
+					<ul>
+						<li class="active"><a href="adminHome.html">Homepage</a></li>
+						<li><a href="style-demo.html">Student</a>
+						<ul id="submenu">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+							</ul>
+							</li>						
+						<li><a href="#">Teacher</a>
+						<ul id="submenu">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+							</ul></li>
+						<li><a href="#">Announcea</a>
+							<ul id="submenu">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+							</ul></li>
+						<li><a href="#">Casdas</a>
+						<ul id="submenu">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Setting1</a>
+						<ul id="submenu">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+								<li><a href="#">Link 3</a></li>
+							</ul>
+						</li>						
+					</ul>
+					<div class="clear"></div>
+				</div>
+			<div class="container">
+				<h1>
+					<a href="#">Announcements</a>
+				</h1>
+				<h2></h2>
+				<div class="rowElem">
+
+					<h1>ABC School of excelence</h1>
+					<h2></h2>
+				</div>
+				<nav>
+				
+				</nav>
+				<!--   nav>
+
+					<ul id="menu" class="menu">
+						<li class="current"><a href="index.html" class="m1">Home
+								Page</a></li>
+						<li><a href="about-us.html" class="m2">About Us</a>
+							<ul id="submenu" class="menu-hover">
+								<li><a href="#"> About-hover</a></li>
+							</ul></li>
+						<li><a href="articles.html" class="m3">Our Articles</a></li>
+						<li><a href="contact-us.html" class="m4">Contact Us</a></li>
+						<li class="last"><a href="../html/index.html" class="m5">Logout</a></li>
+					</ul>
+				</nav -->
+
+
+
+				<!--  form action="#" id="search-form">
+        <fieldset>
+          <div class="rowElem">
+            <input type="text">
+            <a href="#">Search</a></div>  
+        </fieldset>
+      </form -->
+			</div>
+		</header>
+
+		<div class="container">
+			<!-- <aside>
+				<div class="categories" id="accordion">
+					<h4>Nav</h4>
+					<div>
+						<ul>
+							<li><span><a href="#">HOME</a></span></li>
+							<li><span><a href="#">BACK</a></span></li>
+							<li><span><a href="#">LOGOUT</a></span></li>
+						</ul>
+					</div>
+					<h4>Teachers</h4>
+					<div>
+						<ul>
+							<li><span><a href="#">REGISTER</a></span></li>
+							<li><span><a href="#">VIEW</a></span></li>
+							<li><span><a href="#">DELETE</a></span></li>
+						</ul>
+					</div>
+					<h4>Administration</h4>
+					<div>
+						<ul>
+							<li><span><a href="#">REGISTER</a></span></li>
+							<li><span><a href="#">VIEW</a></span></li>
+							<li><span><a href="#">DELETE</a></span></li>
+						</ul>
+					</div>
+				</div>
+			</aside> -->
+			<section id="content">
+				<div id="content" class="faculty0">
+					<h1 class="smaller">Apply Online - Your Personal Details</h1>
+					<div id="expandingMenu" style="overflow: auto">
+						<p>Registration</p>
+						<form method="post" name="stregform" id="regform">
+							<table width="100%">
+								<tr>
+									<th width="45%"></th>
+									<th width="45%"></th>
+									<th width="10%"></th>
+								</tr>
+								<tr>
+									<td>
+										<fieldset>
+											<legend>Personal Details</legend>
+
+											<label for="ValuationName">First Name</label> <input
+												id="fname" name="fname" class="text" type="text"
+												required="required"> <label for="secondName">Last
+												Name (if any)</label> <input id="lname" name="lname" class="text"
+												type="text"> <label for="gender">Gender</label> <select
+												name="gender" id="gender">
+												<option selected="selected" value="">Gender</option>
+												<option value="male">Male</option>
+												<option value="female">Female</option>
+											</select> <br style="clear: both"> <label for="dobDay">DOB</label>
+											<input class="text" type="hidden" /> <select name="dobDay"
+												id="dobDay" class="inlineSelect">
+
+												<option selected="selected" value="">Day</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+											</select> <select name="dobMonth" class="inlineSelect">
+												<option selected="selected" value="">Month</option>
+												<option value="1">Jan</option>
+												<option value="2">Feb</option>
+												<option value="3">Mar</option>
+												<option value="4">Apr</option>
+												<option value="5">May</option>
+												<option value="6">Jun</option>
+												<option value="7">Jul</option>
+												<option value="8">Aug</option>
+												<option value="9">Sep</option>
+												<option value="10">Oct</option>
+												<option value="11">Nov</option>
+												<option value="12">Dec</option>
+											</select> <select name="dobYear" class="inlineSelect">
+												<option selected="selected" value="">Year</option>
+												<option value="1998">1998</option>
+												<option value="1997">1997</option>
+												<option value="1996">1996</option>
+												<option value="1995">1995</option>
+												<option value="1994">1994</option>
+												<option value="1993">1993</option>
+												<option value="1992">1992</option>
+												<option value="1991">1991</option>
+												<option value="1990">1990</option>
+												<option value="1989">1989</option>
+												<option value="1988">1988</option>
+												<option value="1987">1987</option>
+												<option value="1986">1986</option>
+												<option value="1985">1985</option>
+												<option value="1984">1984</option>
+												<option value="1983">1983</option>
+												<option value="1982">1982</option>
+												<option value="1981">1981</option>
+												<option value="1980">1980</option>
+												<option value="1979">1979</option>
+												<option value="1978">1978</option>
+												<option value="1977">1977</option>
+												<option value="1976">1976</option>
+												<option value="1975">1975</option>
+												<option value="1974">1974</option>
+												<option value="1973">1973</option>
+												<option value="1972">1972</option>
+												<option value="1971">1971</option>
+												<option value="1970">1970</option>
+												<option value="1969">1969</option>
+												<option value="1968">1968</option>
+												<option value="1967">1967</option>
+												<option value="1966">1966</option>
+												<option value="1965">1965</option>
+												<option value="1964">1964</option>
+												<option value="1963">1963</option>
+												<option value="1962">1962</option>
+												<option value="1961">1961</option>
+												<option value="1960">1960</option>
+												<option value="1959">1959</option>
+												<option value="1958">1958</option>
+												<option value="1957">1957</option>
+												<option value="1956">1956</option>
+												<option value="1955">1955</option>
+												<option value="1954">1954</option>
+												<option value="1953">1953</option>
+												<option value="1952">1952</option>
+												<option value="1951">1951</option>
+												<option value="1950">1950</option>
+												<option value="1949">1949</option>
+												<option value="1948">1948</option>
+												<option value="1947">1947</option>
+												<option value="1946">1946</option>
+												<option value="1945">1945</option>
+												<option value="1944">1944</option>
+											</select> <br> <label for="fatherName">Father Name</label> <input
+												class="text" name="fatherName" id="fatherName" type="text">
+											<label for="motherName">Mother Name</label> <input
+												class="text" name="motherName" id="motherName" type="text">
+											<label for="religion">Religion</label> <input class="text"
+												name="religion" id="religion" type="text"> <label
+												for="caste">Caste</label> <input class="text" name="caste"
+												id="caste" type="text"> <label for="bloodgrp">Blood
+												Group</label> <select>
+												<option value="A+">Select</option>
+												<option value="A+">A+</option>
+												<option value="A-">A-</option>
+												<option value="A+">B+</option>
+												<option value="A-">B-</option>
+												<option value="A+">AB+</option>
+												<option value="A-">AB-</option>
+												<option value="A+">O+</option>
+												<option value="A-">O-</option>
+											</select>
+										</fieldset>
+										<fieldset>
+											<legend>Contact Details</legend>
+											<label for="tel">Parent Phone No.</label><input class="text"
+												name="tel" id="tel" type="text"> <label for="mobile">Student
+												Phone No.</label> <input class="text" name="mobile" id="mobile"
+												type="text"> <label for="email">Email
+												Address</label> <input class="text" name="email" id="email"
+												type="text"><br>
+										</fieldset>
+									</td>
+									<td>
+										<fieldset>
+											<legend>Present Address Details</legend>
+											<label for="address1">Door No.</label> <input class="text"
+												name="address1" id="address1" type="text"> <label
+												for="address2">Street Name</label> <input class="text"
+												name="address2" id="address2" type="text"> <label
+												for="address3">Area</label> <input class="text"
+												name="address3" id="address3" type="text"> <label
+												for="city">City</label> <input class="text" name="city"
+												id="city" type="text"> <label for="state">State</label>
+											<select id="state" name="state" style="width: 225px;">
+												<option value="KA">Karnataka</option>
+												<option value="AP">Andra Pradesh</option>
+												<option value="AP">Kerala</option>
+												<option value="AP">Tamil Nadu</option>
+												<option value="AP">Maharashtra</option>
+												<option value="AP">Gujurat</option>
+												<option value="AP">Delhi</option>
+											</select> <label for="postcode">Zip/Postcode</label> <input
+												class="text" name="postcode" id="postcode" type="text"><br>
+										</fieldset>
+										<fieldset>
+											<legend>Permanent Address Details</legend>
+											<label for="address1">Door No.</label> <input class="text"
+												name="address1" id="address1" type="text"> <label
+												for="address2">Street Name</label> <input class="text"
+												name="address2" id="address2" type="text"> <label
+												for="address3">Area</label> <input class="text"
+												name="address3" id="address3" type="text"> <label
+												for="city">City</label> <input class="text" name="city"
+												id="city" type="text"> <label for="state">State</label>
+											<select id="state" name="state" style="width: 225px;">
+												<option value="KA">Karnataka</option>
+												<option value="AP">Andra Pradesh</option>
+												<option value="AP">Kerala</option>
+												<option value="AP">Tamil Nadu</option>
+												<option value="AP">Maharashtra</option>
+												<option value="AP">Gujurat</option>
+												<option value="AP">Delhi</option>
+											</select> <label for="postcode">Zip/Postcode</label> <input
+												class="text" name="postcode" id="postcode" type="text"><br>
+										</fieldset>
+
+									</td>
+									<td>
+										<table>
+											<tr>
+												<td align="center" width="200px" height="200px">
+													<div class="preview">
+														<img id="thumbStdImg" class="thumbStdImg" width="150px"
+															height="150px" src="../images/blankLogo.gif" />
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<div class="fileUpload">
+														<span>Upload</span> <input type="file" value="upload1"
+															class="upload" onchange='Test.UpdatePreview(this)' />
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<input type="submit" id="submit" value="Next >>" class="button"
+								name="regsteri" required="required" />
+						</form>
+					</div>
+					<br>
+				</div>
+
+				<!-- <div class="inside">
+					<form id="regform1" name="stregform" method="post">
+						<h2>
+							Student <span>Regstration</span>
+						</h2>
+						<table>
+							<tr>
+								<th width="40%"></th>
+								<th width="55%"></th>
+							</tr>
+							<tr>
+								<td><label for="ValuationName" class="formlabel"
+									data-icon="u">First Name </label> <br /> <input id="fname"
+									class="innershadow" name="fname" required="required"
+									type="text" placeholder="First Name" /> <br /> <label
+									for="lname" class="formlabel" data-icon="u"> Last Name
+								</label> <br /> <input id="lname" class="innershadow" name="lname"
+									required="required" type="text" placeholder="Last name" /> <label
+									for="Gender" class="Gender" data-icon="u">Gender </label> <br />
+									<input type="radio" class="radio" name="Radiobtn" id="fgender"
+									value="M">Male&nbsp;&nbsp;&nbsp;&nbsp; <input
+									type="radio" class="radio" name="Radiobtn" id="fgender"
+									value="F">Female <br /> <label for="fathername"
+									class="formlabel" data-icon="u">Father Name </label> <br /> <input
+									id="fathername" class="innershadow" name="username"
+									required="required" type="text" placeholder="Father name" /> <label
+									for="mothername" class="formlabel" data-icon="u">
+										Mother Name </label> <br /> <input id="mothername"
+									class="innershadow" name="username" required="required"
+									type="text" placeholder="Mother Name" /> <label for="dob"
+									class="formlabel" data-icon="u">Date Of Birth</label> <br /> <select
+									id="day">
+										<option>Day</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+								</select> <select id="mon">
+										<option>Month</option>
+										<option>JAN</option>
+										<option>FEB</option>
+										<option>MAR</option>
+										<option>APR</option>
+										<option>MAY</option>
+										<option>JUN</option>
+										<option>JUL</option>
+										<option>AUG</option>
+										<option>SEP</option>
+										<option>OCT</option>
+										<option>NOV</option>
+										<option>DEC</option>
+								</select> <select id="year">
+										<option>Year</option>
+										<option>1994</option>
+										<option>1995</option>
+										<option>1996</option>
+										<option>1997</option>
+										<option>1998</option>
+										<option>1999</option>
+										<option>2000</option>
+										<option>2001</option>
+										<option>2002</option>
+										<option>2003</option>
+										<option>2004</option>
+										<option>2005</option>
+								</select>
+									</p>
+									<p>
+										<label for="phoneno" class="formlabel" data-icon="u">Contact
+											Number </label> <br /> <input id="phoneno" class="phone"
+											name="contactnum" type="text" placeholder="" />
+									</p>
+									<p>
+										<label for="admitstd" class="formlabel" data-icon="u">
+											Standard </label> <br /> <select id="day">
+											<option>Std</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+										</select>
+									</p>
+									<p align="center">
+										<br /> <input type="submit" id="submit" value="Next >>"
+											class="button" name="regsteri" required="required" />
+									</p></td>
+								<td align="center">
+									<div class="preview">
+										<img id="thumbStdImg" class="thumbStdImg" width="150px"
+											height="150px" src="../images/blankLogo.gif" />
+									</div>
+									<div class="fileUpload">
+										<span>Upload</span> <input type="file" value="upload1"
+											class="upload" onchange='Test.UpdatePreview(this)' />
+
+									</div>
+								</td>
+							</tr>
+						</table>
+					</form>
+									</div>
+									-->
+			</section>
+		</div>
+	</div>
+	<footer>
+		<div class="footerlink">
+			<p class="lf">
+				Copyright &copy; 2013 <a href="#">RSR Soluntions </a> - All Rights
+				Reserved
+			</p>
+			<p class="rf">
+				<a href="#">RSR</a>
+			</p>
+			<div style="clear: both;"></div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		
+	</script>
+	<!-- END PAGE SOURCE -->
+</body>
+</html>

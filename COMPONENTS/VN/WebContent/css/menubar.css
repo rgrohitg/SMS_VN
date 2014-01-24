@@ -1,0 +1,136 @@
+#menunav {
+	font-family: 'Pathway Gothic One', sans-serif;
+	top: 0px;
+	left: 0px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 1174px;
+	font-size: 12px;
+	z-index: 1000;
+	font-weight: bold;
+	font-size: .657em;
+}
+
+#menunav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: left;
+	background: #AC2828;
+	background: linear-gradient(top, #AC2828 0%, #A31010 100%);
+	background: -moz-linear-gradient(top, #AC2828 0%, #A31010 100%);
+	background: -webkit-linear-gradient(top, #AC2828 0%, #A31010 100%);
+	box-shadow: 0px 0px 8px #A31010;
+	width: 1173px;
+	border-radius: 2px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+#menunav li {
+	margin: 0;
+	padding: 0px 52px;
+	list-style: none;
+	float: left;
+	text-align: left;
+	margin-right: 10px;
+	height: auto;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#menunav li li {
+	margin-right: 0;
+}
+
+#menunav li a:link,#menunav li a:visited,#menunav li a:hover {
+	display: block;
+	margin: 0;
+	padding: 8px;
+	color: #F8F9F3;
+	outline: window white;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 12px;
+	display: block;
+	padding: 15px 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#menunav ul ul li a:link,#menunav ul ul li a:visited {
+	border: none;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#menunav li a:hover,#menunav li.active a {
+	background: #811919;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+#menunav li li a:link,#menunav li li a:visited {
+	float: none;
+	margin: 0;
+	font-size: 12px;
+	font-weight: normal;
+	color: #F8F9F3;
+	background-image: none;
+	border: thin 2px;
+}
+
+#submenu li {
+	background: #811919;
+	padding: 0px;
+}
+
+#menunav li li a:hover {
+	background: #AC2828;
+}
+
+#menunav ul ul {
+	padding: 0px; 
+	background : #811919;
+	border-radius: 0px;
+	padding: 0;
+	z-index: 9999;
+	position: absolute;
+	left: -799em;
+	height: auto;
+	border-top: 1px solid #680000;
+	border-bottom: 1px solid #8F3333;
+	background: #811919;
+}
+
+#menunav ul ul li {
+	float: none;
+	border-top: 1px solid #680000;
+	border-bottom: 1px solid #8F3333;
+	position: relative;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+
+
+#menunav ul ul  {
+	width: 140px;
+	background : #811919;
+}
+
+#menunav li:hover ul {
+	left: auto;
+	  background: #4b545f;
+	
+}
+
+#menunav li:hover {
+	position: static;
+}
+
+#menunav li.last {
+	margin-right: 0;
+}
+
+.clear {
+	display: block;
+}

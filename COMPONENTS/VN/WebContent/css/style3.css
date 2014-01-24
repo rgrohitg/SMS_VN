@@ -1,0 +1,1158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.question {
+text-decoration:underline;
+background-image:url(http://www.westlondoncollege.com/images/plus.gif);
+background-position: 20px 5px;
+line-height:14px;
+background-repeat: no-repeat;
+padding: 2px 0px 2px 38px;
+margin: 0px;
+border: none;
+cursor: pointer;
+color: #036;
+}
+.answer {
+padding: 2px 0px 20px 38px;
+margin: 0px;
+border: none;
+}
+.answered {
+background-image:url(http://www.westlondoncollege.com/images/minus.gif);
+}
+
+
+
+.courseSelector1 {
+float:right;
+padding-bottom:100px;
+padding-left:20px;
+width: 296px;
+}
+.courseSelector2 {
+display:none;	
+}
+#seltCountries {
+width: 400px;
+}
+
+#seltCountries td {
+padding:2px;
+line-height:15px;
+}
+
+#seltCountries td.seltC {
+text-align:center;
+padding:5px;
+}
+
+#seltCountries td.seltC img {
+padding:0px;
+}
+
+
+
+
+.MenuBarItemSubmenu { 
+font-family: ff-dax-web-pro, ff-dax-compact-web-pro-n3, ff-dax-compact-web-pro, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color:#CCCCCC;
+text-shadow: 0px 1px 1px white;
+}
+
+h1, h2, h3, .top_para {
+	/*font-family:Dax, Arial, sans-serif;*/
+	/*font-family: ff-dax-compact-web-pro-n3, ff-dax-compact-web-pro, Arial, Helvetica, sans-serif;*/
+font-family: Helvetica, Verdana, Arial, sans-serif;
+text-align: left;
+text-shadow: 0px 1px 1px white;
+}
+/*font-family: ff-dax-compact-web-pro,sans-serif;*/
+
+.left {
+float:left;
+width:295px;
+padding-bottom:0px;
+}
+.right {
+float:right;
+width:295px;
+padding-bottom:0px;
+}
+
+.rightB {
+float:right;
+width:295px;
+padding-left:10px;
+padding-bottom:0px;
+
+border-left: #999 1px solid;
+border-bottom:0px;
+}
+
+p.arrow {
+padding: 0 0 0 50px;
+margin:  0 0 15px 0; 
+line-height: 35px;
+background-image:url(../images/arrow.gif);
+background-repeat:no-repeat;
+background-position:left centre;
+}
+
+p.contactArrow {
+font-size: 13px;
+padding-top:9px;
+padding-left:165px;
+background-image:url(../images/arrow.gif);
+background-repeat:no-repeat;
+background-position:115px top;
+margin: 20px 0px 20px 0px;
+}
+
+.leftB {
+float:left;
+width:295px;
+padding-right:10px;
+border-right: #999 1px solid;
+padding-bottom:0px;
+}
+#friendlyCampusL {
+width:400px;
+}
+#friendlyCampusR {
+width:195px;
+}
+
+body {
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#666;
+	line-height:15px;
+	margin:0;
+
+}
+
+h3 {
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+
+}
+
+
+p, img {
+	margin:0;
+	padding: 0px 0px 10px 0px;
+	border: none;
+}
+
+p.bscsmall{
+font-size:10px;
+text-align:justify;
+margin-top:3px;
+margin-bottom:3px;
+margin-left:10px;
+margin-right:0px;
+line-height: 11px;
+-webkit-text-size-adjust:none;
+}
+
+#frontBlurb {
+display:none;
+position: absolute;
+top:20px;
+left:20px;
+margin:0px;
+padding:0px;
+font-family: dax, ff-dax-compact-web-pro-n3, ff-dax-compact-web-pro, Arial, Helvetica, sans-serif;
+font-size: 18px;
+width: 280px;
+font-weight:300;
+text-shadow:0 0 0 transparent, 0 1px 1px #fff;
+line-height:22px;
+color:#003366;
+}
+.welcome {
+line-height:50px;
+font-size:45px;
+
+}
+
+.top_para {
+font-size:14px;
+line-height:19px;
+font-weight:400;
+}
+
+.contactHeading {
+display:block;
+color:#003366;
+font-size:13px;
+width:150px;
+text-align:right;
+float:left;
+clear:both;
+line-height:18px;
+font-weight:bold;
+margin: 5px 5px 13px 5px;
+}
+
+.contactContent {
+display:block;
+color:#003366;
+font-size:13px;
+line-height:18px;
+text-align:left;
+float:left;
+
+font-weight:normal;
+margin: 5px 5px 13px 5px;
+}
+
+h1 {
+	font-size:55px;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	color:#006BB6;
+	font-weight:300;
+	line-height:58px;
+	letter-spacing:-1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	-webkit-text-stroke: 1px transparent;
+	
+}
+
+h1.smaller {
+font-size:23px;
+line-height:28px;
+letter-spacing:normal;
+font-weight:normal;
+
+}
+
+h2, .top_para  {
+	font-family: Arial, Verdana, sans-serif;
+	font-weight:normal;
+	font-size:13px;
+	color:#006BB6;
+	padding: 0px 0px 3px 0px;
+	margin: 0px;
+	/*font-weight:400;*/
+	line-height:15px;
+}
+
+
+
+h2.larger {
+	font-size:20px;
+	color:#006BB6;
+	padding: 0px 0px 3px 0px;
+	margin: 0px;
+	font-weight:400;
+	line-height:25px;
+}
+
+#container {
+	position:relative;
+	width:818px;
+	margin:0px auto;
+	padding:0px;
+}
+
+
+#header {
+	position:absolute;
+	width:818px;
+	height:135px;
+	margin:0px auto;
+	padding:0px;
+	font-family: Courier;
+	font-size:12px;
+	border:none;
+	top:0px;
+	left:0px;
+	z-index: 0;
+}
+
+#side {
+position:relative;
+float:left;
+top:135px;
+left:0px;
+width:184px;
+margin:0px;
+z-index:0;
+}
+
+#content {
+position:relative;
+float:right;
+top:135px;
+left:0px;
+width:613px;
+margin:0px;
+padding:0px;
+border:0px;
+z-index:inherit;
+}
+
+#footer {
+	float:none;
+	position:relative;
+	width:818px;
+	top:135px;
+	clear:both;
+	padding:0px;
+	margin:0px;
+	z-index:auto;
+	display:block;	
+}
+#footer2 {
+	
+	float:none;
+	text-align:center;
+	position:relative;
+	width:818px;
+	top:215px;
+	clear:both;
+	padding:0px;
+	margin:0px;
+	z-index:auto;
+	color:#a8a8a8;
+	font-size:10px;	
+}
+#HWUoY { /*Heriot Watt university Scottish University of the Year 2011/12 */
+	float:none;
+	position:relative;
+	width:482px;
+	background-image:url(../images/st-hwu3.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 3px;
+	top:20px;
+	clear:both;
+	padding:0px 0px 10px 135px;
+	margin:0px;
+	z-index:auto;
+	font-weight:200;
+}
+#HWUoY p {
+font-weight:400;
+font-family: Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:0px;
+padding:0px;
+}
+
+#HWUoY2013 { /*Heriot Watt university Scottish University of the Year 2012/13 */
+	float:none;
+	position:relative;
+	width:500px;
+	height:120px;
+	background-image:url(../images/Sunday-Times-Award-Logo-100.gif);
+	background-repeat:no-repeat;
+	background-position:top right;
+	top:20px;
+	clear:both;
+	padding:30px 113px 10px 0px;
+	margin:0px;
+	z-index:auto;
+	
+	
+}
+#HWUoY2013 p {
+font-weight:normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:0px;
+padding:0px;
+line-height:16px;
+}
+
+#topHatch {
+	position: absolute;
+	font-size:1px;
+	line-height:1px;
+	top: 65px;
+	width: 818px;
+	height: 11px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-image: url(../images/stripe3.png);
+	z-index: 0;
+}
+
+#topMenu {
+	position:absolute;
+	top:76px;
+	width:818px;
+	height:30px;
+	margin:0px;
+	padding: 0px;
+	border:none;
+	
+}
+
+#bttmHatch {
+	position:absolute;
+	font-size:1px;
+	line-height:1px;
+	top:106px;
+	width:818px;
+	height:11px;
+	margin:0px;
+	padding: 0px;
+	border:none;
+	background-image:url(../images/stripe3.png);
+	z-index: -10;
+}
+#mainLogo {
+	position:absolute;
+	top:20px;
+	left: 0px;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+#tagLine {
+	position:absolute;
+	top:35px;
+	left: 406px;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+h2 {
+color:#003366;
+}
+
+
+a {
+color:#003366;
+}
+
+.faculty0 h1 {
+color:#006BB6;
+}
+.faculty0 .top_para, .faculty0 .top_para a, .faculty0 h2, .faculty0 th, .faculty0 h1 a, .faculty0 h2 a  {
+color:#003366;
+}
+.faculty1 h1, .faculty1 h2, .faculty1 .top_para, .faculty1 .top_para a, .faculty1 th, .faculty1 h1 a, .faculty1 h2 a {
+color:#B09B60;
+}
+.faculty2 h1, .faculty2 h2, .faculty2 .top_para, .faculty2 .top_para a, .faculty2 th, .faculty2 h1 a, .faculty2 h2 a {
+color:#8DBA2F;
+}
+.faculty3 h1, .faculty3 h2, .faculty3 .top_para, .faculty3 .top_para a, .faculty3 th, .faculty3 h1 a, .faculty3 h2 a {
+color:#B00069;
+}
+.faculty4 h1, .faculty4 h2, .faculty4 .top_para, .faculty4 .top_para a, .faculty4 th, .faculty4 h1 a, .faculty4 h2 a {
+color:#D2232A;
+}
+.faculty5 h1, .faculty5 h2, .faculty5 .top_para, .faculty5 .top_para a, .faculty5 th, .faculty5 h1 a, .faculty5 h2 a {
+color:#EF008C;
+}
+.faculty6 h1, .faculty6 h2, .faculty6 .top_para, .faculty6 .top_para a, .faculty6 th, .faculty6 h1 a, .faculty6 h2 a {
+color:#FA7115;
+}
+.faculty7 h1, .faculty7 h2, .faculty7 .top_para, .faculty7 .top_para a, .faculty7 th, .faculty7 h1 a, .faculty7 h2 a {
+color:#DEAA2E;
+}
+
+
+.faculty12 h1, .faculty12 h2, .faculty12 .top_para, .faculty12 .top_para a, .faculty12 th, .faculty12 h1 a, .faculty12 h2 a {
+color:#8DBA2F;
+}
+
+.faculty13 h1, .faculty13 h2, .faculty13 .top_para, .faculty13 .top_para a, .faculty13 th, .faculty13 h1 a, .faculty13 h2 a {
+color:#009FE3;
+}
+
+
+.faculty20 h1, .faculty20 h2, .faculty20 .top_para, .faculty20 .top_para a, .faculty20 th, .faculty20 h1 a, .faculty20 h2 a {
+color:#B09B60;
+}
+.faculty22 h1, .faculty22 h2, .faculty22 .top_para, .faculty22 .top_para a, .faculty22 th, .faculty22 h1 a, .faculty22 h2 a {
+color:#8DBA2F;
+}
+.faculty21 h1, .faculty21 h2, .faculty21 .top_para, .faculty21 .top_para a, .faculty21 th, .faculty21 h1 a, .faculty21 h2 a {
+color:#B00069;
+}
+.faculty24 h1, .faculty24 h2, .faculty24 .top_para, .faculty24 .top_para a, .faculty24 th, .faculty24 h1 a, .faculty24 h2 a {
+color:#D2232A;
+}
+
+.faculty25 h1, .faculty25 h2, .faculty25 .top_para, .faculty25 .top_para a, .faculty25 th, .faculty25 h1 a, .faculty25 h2 a {
+color:#FA7115;
+}
+
+.faculty23 h1, .faculty23 h2, .faculty23 .top_para, .faculty23 .top_para a, .faculty23 th, .faculty23 h1 a, .faculty23 h2 a {
+color:#00aeef;
+}
+
+#expandingMenu, .expandingMenu {
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  color: #666666;
+  margin: 0px 0px 0px 0px;
+  padding: 15px;
+  width: 581px;  
+}
+
+.expandingMenu td strong {
+color:#003366;
+}
+
+span.actuator {
+text-decoration:underline;
+color:#003366;
+cursor:pointer;
+}
+
+ul.menu {
+text-decoration:none;
+}
+
+
+/*COURSES MENU*/
+#coursesMenu {
+position:absolute;
+top:145px;
+}
+#coursesMenu p {
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 13px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:left;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:10px;
+	padding-right:8px;
+	background-color:#C7C9CC;
+	margin-bottom: 1px;
+}
+#coursesMenu.faculty1 p.fadedbox { background-color:#C3B487 }
+#coursesMenu.faculty2 p.fadedbox { background-color:#C6DD97 }
+#coursesMenu.faculty3 p.fadedbox { background-color:#D26FAA }
+#coursesMenu.faculty4 p.fadedbox { background-color:#E58387 }
+#coursesMenu.faculty5 p.fadedbox { background-color:#F893CD }
+#coursesMenu.faculty6 p.fadedbox { background-color:#FDBC5E }
+#coursesMenu.faculty7 p.fadedbox { background-color:#C7C9CC }/*is this used??*/
+
+/* new information technology faculty (will replace computer science) */
+#coursesMenu.faculty12 p.fadedbox { background-color:#C6DD97 }
+#coursesMenu.faculty13 p.fadedbox { background-color:#71C1E3 }
+
+#coursesMenu.faculty1 p.course_menu_on { background-color:#B09B60 }
+#coursesMenu.faculty2 p.course_menu_on { background-color:#8DBA2F }
+#coursesMenu.faculty3 p.course_menu_on { background-color:#B00069 }
+#coursesMenu.faculty4 p.course_menu_on { background-color:#D2232A }
+#coursesMenu.faculty5 p.course_menu_on { background-color:#EF008C }
+#coursesMenu.faculty6 p.course_menu_on { background-color:#FA7115 }
+#coursesMenu.faculty7 p.course_menu_on { background-color:#DEAA2E }
+
+/* new information technology faculty (will replace computer science) */
+#coursesMenu.faculty12 p.course_menu_on { background-color:#8DBA2F }
+#coursesMenu.faculty13 p.course_menu_on { background-color:#009FE3 }
+
+
+
+#coursesMenu.faculty20 p.fadedbox { background-color:#C3B487 }
+#coursesMenu.faculty22 p.fadedbox { background-color:#C6DD97 }
+#coursesMenu.faculty21 p.fadedbox { background-color:#D26FAA }
+#coursesMenu.faculty24 p.fadedbox { background-color:#E58387 }
+#coursesMenu.faculty23 p.fadedbox { background-color:#00aeef }
+#coursesMenu.faculty25 p.fadedbox { background-color:#FDBC5E }
+
+#coursesMenu.faculty20 p.course_menu_on { background-color:#B09B60 }
+#coursesMenu.faculty22 p.course_menu_on { background-color:#8DBA2F }
+#coursesMenu.faculty21 p.course_menu_on { background-color:#B00069 }
+#coursesMenu.faculty24 p.course_menu_on { background-color:#D2232A }
+#coursesMenu.faculty23 p.course_menu_on { background-color:#6dcff6 }
+#coursesMenu.faculty25 p.course_menu_on { background-color:#FA7115 }
+
+#coursesMenu p a {
+	text-decoration:none;
+	color: #003366;
+}
+
+
+#sidehashbg {
+position:relative;
+top:14px;
+background-image:url(http://www.westlondoncollege.com/images/stripe3.png);
+width:184px;
+margin: 0px 0px 7px 0px;
+border: 0px;
+padding: 0px 0px 3px 0px;
+border:0px;
+height: 320px;
+overflow:hidden;
+}
+#sideinner {
+position: relative;
+top:10px;
+left:10px;
+background-color:#FFFFFF;
+width:164px;
+margin:0px;
+border: 0px;
+padding: 0px;
+height: 300px;
+overflow:hidden;
+-webkit-text-size-adjust:none;
+}
+.sideItem {
+font-family: Helvetica, Verdana, Arial, sans-serif;
+
+position:relative;
+top: 0px;
+left: 37px;
+border: 0px;
+width:124px;
+line-height: 12px;
+padding: 5px 0px 3px 0px;
+margin: 0px;
+}
+
+
+.sideItem img {
+position: absolute;
+top: 5px;
+left: -35px;
+margin:0px;
+border: 0px;
+padding: 0px;
+}
+
+/* <UL> LISTS */
+ul {
+list-style-type:none;
+padding: 0px;
+margin: 0px 0px 5px 0px;
+border: 0px;
+}
+
+ul li {
+background-image:url(../images/bullet.gif);
+background-position: 20px 4px;
+line-height:14px;
+background-repeat: no-repeat;
+padding: 2px 0px 2px 38px;
+margin: 0px;
+border: none;
+}
+
+li.menu {
+background-image:none;
+padding: 5px 5px 5px 5px;
+}
+
+.grey ul li {
+padding: 2px 0px 2px 23px;
+background-position: 5px 4px;
+}
+.faculty1 ul li, .faculty20 ul li {
+background-image:url(../images/bullet_bus.gif);
+}
+.faculty2 ul li, .faculty22 ul li {
+background-image:url(../images/bullet_comp.gif);
+}
+.faculty12 ul li {
+background-image:url(../images/bullet_comp.gif);
+}
+.faculty3 ul li, .faculty21 ul li {
+background-image:url(../images/bullet_htl.gif);
+}
+.faculty13 ul li {
+background-image:url(../images/bullet_cyan.gif);
+}
+.faculty4 ul li, .faculty24 ul li {
+background-image:url(../images/bullet_trv.gif);
+}
+.faculty5 ul li {
+background-image:url(../images/bullet_fash.gif);
+}
+.faculty6 ul li, .faculty25 ul li {
+background-image:url(../images/bullet_eng.gif);
+}
+.faculty7 ul li {
+background-image:url(../images/bullet_exe.gif);
+}
+
+
+
+.faculty13 .headingImage {
+/*width:247px;*/
+}
+/*  boxes on courses pages */
+.grey {
+padding: 7px 7px 2px 10px;
+border: none;
+background-color: #F0F0F1;
+margin: 3px 0px 20px 0px;
+
+}
+
+.grey p {
+padding: 0px 0px 5px 0px;
+}
+
+/* TABLES */
+table {
+border-collapse:collapse;
+width:100%;
+padding:0px;
+margin:0px;
+border:none;
+}
+
+th, td {
+border-bottom:#333333 solid 1px;
+padding: 8px 0px 8px 0px;
+}
+th {
+padding: 8px 0px 0px 0px;
+}
+td {
+padding: 10px 0px 10px 0px;
+}
+
+th.left, td.left {
+text-align:left;
+border:none;
+padding:0px 3px 0px 3px;
+margin:0px;
+}
+th.center, td.center {
+text-align:center;
+border:none;
+padding:0px 3px 0px 3px;
+margin:0px;
+}
+th.right, td.right {
+text-align:right;
+border:none;
+padding:0px 0px 0px 3px;
+margin:0px;
+}
+
+#footer th, #footer td {
+border: none;
+
+}
+
+
+
+.socialTABLE td {
+border:none;
+text-align:left;
+padding:0px;
+
+}
+
+.socialTABLE {
+width:219px;
+margin:5px 0px 10px 0px;
+}
+
+.socialTABLE, .socialTABLE td, .socialTABLE tr {
+border:none;
+text-align:left;
+padding:0px 10px 0px 0px;
+}
+
+hr {
+margin: 5px 0px 15px 0px;
+padding: 0px;
+border: none;
+height: 1px;
+background-color:#666666;
+}
+
+.gallThumb {
+float:left;
+margin:0px;
+height:120px;
+width:120px;
+padding:1px;
+border:none;
+}
+.gallThumb img {
+border: 0px none;
+padding: 0px;
+margin: 0px;
+}
+
+
+
+.studentQuote {
+width:565px;
+text-align:left;
+padding:0px 24px 0px 24px;
+background-image:url(http://www.westlondoncollege.com/images/fashleftquot.gif);
+background-position:top left;
+background-repeat:no-repeat;
+margin:0px;
+border:none;
+}
+.quotedStudent {
+position:relative;
+top:-24px;
+left:0px;
+margin:0px;
+width:565px;
+color:#EF008C;
+text-align:right;
+padding:24px 24px 24px 24px;
+border:none;
+background-image:url(http://www.westlondoncollege.com/images/fashrightquot.gif);
+background-repeat:no-repeat;
+background-position:top right;
+
+}
+
+#seltsTable {
+border-collapse:separate;
+border: 1px solid #ffffff;
+line-height:12px;
+}
+td.seltBlue {
+	background-color:#006BB6;
+	color:#ffffff;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight:normal;
+	padding:2px;
+	margin:1px;
+	border: 1px solid #ffffff;
+}
+td.seltGrey {
+	background-color:#dddddd;
+	color:#003366;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-weight:normal;
+	padding:2px;
+	margin:1px;
+	border: 1px solid #ffffff;
+}
+td.seltSpace {
+border:none;
+}
+/*
+TEMPORARY
+*/
+#contentEdit {
+
+width: 450px;
+height: 800px;
+margin:0px;
+padding:0px;
+border:dotted #006600 1px;
+background-color:#E5FFF9;
+color:#336600;
+/*display: none;*/
+
+}
+#fpYouTube {
+/*"http://www.youtube.com/user/WestLondonCollegeTV#p/u/0/4WMbPL0xbys"*/
+background-image:url(../images/bluegrey.gif);
+background-repeat:repeat;
+width:613px;
+height:35px;
+color:#FFFFFF;
+text-decoration:none;
+margin:0px;
+padding:0px;
+border:0px;
+line-height:35px;
+text-align:center;
+font-size:14px;
+position:relative;
+display:block;
+top:-10px;
+left:0px;
+}
+
+#sideSearch {
+height: 50px;
+position:relative;
+overflow:hidden;
+top:0px;
+margin:0px;
+padding:0px;
+border:0px;
+
+}
+#sideSearch form {
+margin:0px;
+padding:0px;
+border:0px;
+}
+#social {
+height: 50px;
+position:relative;
+overflow:hidden;
+top:0px;
+margin:0px;
+padding:0px;
+border:0px;
+
+}
+
+.mobileOnly {
+	display:none;
+}
+
+
+#fastFind {
+height: 50px;
+position:relative;
+overflow:hidden;
+top:0px;
+margin:0px;
+padding:0px;
+border:0px;
+height:24px;
+width:183px;
+}
+
+#tourCampus {
+border: solid #000 1px;
+margin: 0px 0px 10px 0px;
+padding: 10px 10px 10px 100px;
+background:url(../images/feet_lrg.gif);
+background-repeat:no-repeat;
+background-position:10px 8px;
+line-height: 13px;
+}
+#tourCampus a, .sideItem a {
+text-decoration:none;
+font-weight:bold;
+color:#333333;
+}
+#tourCampus a:hover, .sideItem a:hover {
+color:#003366;
+}
+
+/*
+#button {
+position:relative;
+top:5px;
+left:0px;
+}
+*/
+#form {
+z-index: 1;
+position:absolute;
+top:135px;
+left:850px;
+background-color:#cfe5e0;
+padding:3px;
+/*display: none;*/
+}
+/*
+#temp_menu_open {
+left:171px;
+}
+*/
+
+#HWTagline {
+font-family:Arial;
+color:#888888;
+
+height:58px;
+font-size:15px;
+line-height:48px;
+float:left;
+margin:5px 0px 0px 0px;
+padding:0px;
+border:none;
+
+/*background-image:url(http://www.westlondoncollege.com/images/HW-logo.gif);
+background-position:top right;
+background-repeat:no-repeat;*/
+-webkit-text-size-adjust:none;
+display:none;
+}
+
+.HWTaglineBlue {
+color:#003366;
+}
+
+#HWLogo {
+position:absolute;
+top:0px;
+left:0px;
+margin:14px 0px 0px 0px;
+padding:0px;
+border:none;
+}
+
+#footerBlurb {
+/*font-family: Helvetica, Verdana, Arial, sans-serif;*/
+font-size:10px;
+text-align:justify;
+margin:10px 0px 10px 0px;
+padding:0px 0px 0px 14px;
+border-width:0px 0px 0px 1px;
+border-style:solid;
+border-color:#aeaeae;
+line-height: 10px;
+position:absolute;
+top:0px;
+left:392px;
+width:410px;
+
+color:#a8a8a8;
+
+-webkit-text-size-adjust:none;
+}
+
+#cookienotice {
+	position:relative;
+	width:818px;
+	margin:10px auto;
+	padding:0px;
+	color: #FFFFFF;
+border:#cccccc 3px solid;
+padding: 5px;
+line-height:15px;
+/*background:#003366;*/
+z-index:20000;
+-webkit-text-size-adjust:none;
+
+-moz-box-shadow: 2px 2px 5px #888;
+-webkit-box-shadow: 2px 2px 5px #888;
+box-shadow: 2px 2px 5px #888;
+
+background-color:#003366; /* for non-css3 browsers */
+}
+
+#cookienotice a {
+color:#FFFFFF;
+text-decoration:underline;
+}
+
+/* columns for Heriot Watt pages*/
+#lhw {
+	width:63%;
+	margin:0px;
+	padding:0px;
+}
+
+#rhw {
+	width:30%;
+	margin:0px;
+	padding:0px;
+}
+
+.alternateCoursesStart {
+margin-top: 4px;
+}
+
+.networksHeading {
+	float:left;
+	width:200px;
+}
+
+.networksLogos {
+	float:left;
+	width:150px;
+	text-align:right;
+	margin-right:10px;
+}
+
+.networksContact {
+float:left;
+width:250px;	
+}
+
+#fastFind, #fpYouTube {
+display:none;
+}
+
+#sidehashbg {
+top:3px;
+}
+
+
+h2.newsH2 {
+clear:both;
+
+margin-top:1em;
+padding-top:1.5em;
+padding-bottom:1em;
+border-top: 1px solid #003366;
+}
+
+
+table#sumFashPt1 td, table#sumFashPt1 th {
+	padding:1em;
+}
+
+
+
+
+
+table#requirementsTable {
+border-spacing:2px;
+border-collapse:separate;
+font-size:11px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+table#requirementsTable tr td {
+	padding:5px;
+	margin:2px;
+	border-bottom:none;
+	color:#333333;
+}
+
+table#requirementsTable tr td.reqTop, table#requirementsTable tr td.reqCourseTitle {
+	font-weight:bold;
+}
+
+table#requirementsTable tr td.reqTop {
+background-color:#224c9e;
+color:#FFFFFF;
+}
+
+
+table#requirementsTable tr td.reqCourseTitle {
+color:#444444;
+}
+
+table#requirementsTable tr.reqSect1 td {
+	background-color:#d3dbec;
+}
+
+table#requirementsTable tr.reqSect2 td {
+	background-color:#b2c1dd;
+}
+
+table#requirementsTable tr.reqSect4 td {
+	background-color:#d3dbec;
+}
+
+table#requirementsTable tr.reqSect5 td {
+	background-color:#b2c1dd;
+}
+
+table#requirementsTable tr.reqSect6 td {
+	background-color:#f3b7b7;
+}
+table#requirementsTable tr.reqSect7 td {
+	background-color:#e68b8c;
+}
+
+table#requirementsTable tr.reqSect8 td {
+	background-color:#fcb88a;
+}
