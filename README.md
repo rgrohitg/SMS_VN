@@ -1,3 +1,85 @@
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class JsonMerger {
+    public static void main(String[] args) {
+        // Assume json1 and json2 are your input JSON strings
+        String json1 = "[{ \"id\": 1, \"name\": \"John\", \"city\": \"New York\" },{ \"id\": 2, \"name\": \"Jane\", \"city\": \"Los Angeles\" }]";
+        String json2 = "[{ \"id\": 1, \"age\": 25, \"city\": \"Los Angeles\" },{ \"id\": 3, \"name\": \"Bob\", \"city\": \"Chicago\" }]";
+
+        ObjectMapper mapper = new ObjectMapper();
+
+        try {
+            ArrayNode array1 = (ArrayNode) mapper.readTree(json1);
+            ArrayNode array2 = (ArrayNode) mapper.readTree(json2);
+
+            // Assuming common keys are "id" and "city"
+            Set<String> commonKeys = new HashSet<>();
+            commonKeys.add("id");
+            commonKeys.add("city");
+
+            Set<String> commonAttributeValues = new HashSet<>();
+
+            // Extract common attribute values from both JSONs
+            for (JsonNode element : array1) {
+                for (String key : commonKeys) {
+                    commonAttributeValues.add(element.get(key).asText());
+                }
+            }
+
+            for (JsonNode element : array2) {
+                for (String key : commonKeys) {
+                    commonAttributeValues.add(element.get(key).asText());
+                }
+            }
+
+            for (String value : commonAttributeValues) {
+                JsonNode node1 = findNodeWithValue(array1, commonKeys, value);
+                JsonNode node2 = findNodeWithValue(array2, commonKeys, value);
+
+                if (node1 != null && node2 != null) {
+                    // Merge node2 into node1
+                    ((ObjectNode) node1).setAll((ObjectNode) node2);
+                }
+            }
+
+            // At this point, array1 contains the merged result
+            System.out.println(array1.toString());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static JsonNode findNodeWithValue(ArrayNode array, Set<String> keys, String value) {
+        Iterator<JsonNode> elements = array.elements();
+
+        while (elements.hasNext()) {
+            JsonNode element = elements.next();
+
+            boolean match = true;
+            for (String key : keys) {
+                if (!value.equals(element.get(key).asText())) {
+                    match = false;
+                    break;
+                }
+            }
+
+            if (match) {
+                return element;
+            }
+        }
+
+        return null;
+    }
+}
+
 SMS_VN
 ======
 
